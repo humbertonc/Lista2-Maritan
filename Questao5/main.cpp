@@ -13,10 +13,7 @@ int main(){
     arquivo_bkp.open("teste_bkp.txt");
 
     while(!arquivo.eof()){
-    cout<< "dentro" << endl;
-    //getline(arquivo,linha);
-    arquivo >> linha;
-    //arquivo.ignore();
+    getline(arquivo,linha);
     arquivo_bkp << linha << endl;
     }
     arquivo.close();
