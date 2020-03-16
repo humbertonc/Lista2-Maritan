@@ -12,20 +12,16 @@ int main()
     TestaValidaNumero valida;
 
     cin >> n;
+    
     try{
     valida.validaNumero(n);
     }catch(ValorAbaixoException abaixo){
-
         abaixo = ValorAbaixoException();
-
     }catch(ValorAcimaException acima){
-
         acima = ValorAcimaException();
-
     }catch(ValorMuitoAcimaException mtacima){
-
         mtacima = ValorMuitoAcimaException();
-
     }
+    
     return 0;
 }
