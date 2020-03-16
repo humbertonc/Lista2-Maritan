@@ -2,5 +2,5 @@
 
 ValorMuitoAcimaException::ValorMuitoAcimaException()
 {
-    cout << "Valor muito acima do desejado" << endl;
+    cout << "Erro: Valor muito acima do desejado" << endl;
 }
