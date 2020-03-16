@@ -2,5 +2,5 @@
 
 ValorAbaixoException::ValorAbaixoException()
 {
-    cout << "Valor abaixo do desejado" << endl;
+    cout << "Erro: Valor abaixo do desejado" << endl;
 }
