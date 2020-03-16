@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1584382046 source:c:\users\aluno\desktop\q4\questao4\main.cpp
+	<iostream>
+	"TestaValidaNumero.h"
+	"ValorAbaixoException.h"
+	"ValorAcimaException.h"
+	"ValorMuitoAcimaException.h"
+
+1584380734 c:\users\aluno\desktop\q4\questao4\include\testavalidanumero.h
+	"ValorAbaixoException.h"
+	"ValorAcimaException.h"
+	"ValorMuitoAcimaException.h"
+
+1584380734 c:\users\aluno\desktop\q4\questao4\include\valorabaixoexception.h
+	<exception>
+	<iostream>
+
+1584381161 c:\users\aluno\desktop\q4\questao4\include\valoracimaexception.h
+	<iostream>
+	<exception>
+
+1584381161 c:\users\aluno\desktop\q4\questao4\include\valormuitoacimaexception.h
+	<exception>
+	<iostream>
+
+1584380734 source:c:\users\aluno\desktop\q4\questao4\src\valorabaixoexception.cpp
+	"ValorAbaixoException.h"
+
+1584380734 source:c:\users\aluno\desktop\q4\questao4\src\valoracimaexception.cpp
+	"ValorAcimaException.h"
+
+1584380734 source:c:\users\aluno\desktop\q4\questao4\src\valormuitoacimaexception.cpp
+	"ValorMuitoAcimaException.h"
+
+1584382570 source:c:\users\aluno\desktop\q4\questao4\src\testavalidanumero.cpp
+	"TestaValidaNumero.h"
+
